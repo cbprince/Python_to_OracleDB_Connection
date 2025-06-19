@@ -4,6 +4,8 @@
 # Step 3: Connect to Oracle Database using oracledb package
 # HR SCHEMA COUNTRIES, EMPLOYEES, DEPARTMENTS, JOBS, JOB_HISTORY, LOCATIONS, REGIONS
 # Public to gitHub #git --version #git init #git add . #git commit -m "Initial commit" #git remote add origin
+# git config --global user.name "cbprince"
+# git config --global user.email "cbprince2013@gmail.com"
 
 import oracledb
 
@@ -29,3 +31,5 @@ for row in cursor:
 
 cursor.close()
 
+# git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
+# git push -u origin master
